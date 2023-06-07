@@ -30,7 +30,7 @@ public class Gorilla extends Mammal {
       this.energy += 10;
     }
 
-    System.out.printf("%s just ate %d bananas! They gained %d energy.%n", this.name, totalBananas, totalBananas * 10);
+    System.out.printf("%s just ate %d banana(s)! They gained %d energy.%n", this.name, totalBananas, totalBananas * 10);
     this.displayPreviousEnergy(previousEnergy);
     this.displayCurrentEnergy();
     System.out.println();
